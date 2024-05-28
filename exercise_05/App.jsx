@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <>
-      <Header temperature={{ temperature, toggleIsOn, isOn }} />
+      <Header temperature={temperature} toggleIsOn={toggleIsOn} isOn={isOn} />
       <Content temperature={temperature} />
       <Footer
         increaseTemperature={increaseTemperature}
