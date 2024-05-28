@@ -1,23 +1,17 @@
 import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
 
 function App() {
-	// code here
-}
-
-function Header() {
-	// code here
-}
-
-function Nav() {
-	//code here
-}
-
-function Main() {
-	// code here
-}
-
-function Footer() {
-	// code here
+  return (
+    <>
+    <Header />
+    <Main />
+    <Footer />
+    </>
+  );
 }
 
 export default App;
